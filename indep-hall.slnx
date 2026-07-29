@@ -1,18 +1,28 @@
 ﻿<Solution>
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="VHierarchy.csproj" />
+  <Project Path="EPO.csproj" />
   <Project Path="Febucci.TextAnimator.Demo.Runtime.csproj" />
   <Project Path="Runtime.csproj" />
   <Project Path="VTabs.csproj" />
   <Project Path="VFolders.csproj" />
   <Project Path="Febucci.TextAnimatorForUnity.Runtime.csproj" />
+  <Project Path="EPODemo.csproj" />
   <Project Path="DOTween.Modules.csproj" />
+  <Project Path="EPOUtilities.csproj" />
+  <Project Path="EPOEditor.csproj" />
   <Project Path="Febucci.TextAnimatorForUnity.TMP.Runtime.csproj" />
   <Project Path="Febucci.TextAnimatorForUnity.Input.Runtime.csproj" />
   <Project Path="Febucci.TextAnimator.Demo.CurvesAndPlaybacks.Runtime.csproj" />
   <Project Path="Febucci.Attributes.Runtime.csproj" />
+  <Project Path="DOTweenPro.EditorScripts.csproj" />
+  <Project Path="EPOURP.csproj" />
   <Project Path="VFavorites.csproj" />
+  <Project Path="DOTweenPro.Scripts.csproj" />
   <Project Path="SimpleFolderIcon.csproj" />
   <Project Path="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" />
+  <Project Path="EPOHDRP.csproj" />
   <Project Path="Bridge.csproj" />
 </Solution>
