@@ -20630,7 +20630,7 @@ MonoBehaviour:
       - originConversationID: 7
         originDialogueID: 11
         destinationConversationID: 7
-        destinationDialogueID: 2
+        destinationDialogueID: 26
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -21292,9 +21292,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: If you succeed in persuading the Convention to establish election
-          by the people, then the system of electors you so despise will never come
-          into being.
+        value: I suppose you can write another message. Ask that Mr. Wilson be restored
+          to this Convention and that you be returned to your own time.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -21349,7 +21348,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: And if it never exists, you will have no cause to send your message.
+        value: Mark it with the sun as before, and hope and pray that it obeys you
+          instead of being contrary.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -21367,7 +21367,7 @@ MonoBehaviour:
       - originConversationID: 7
         originDialogueID: 24
         destinationConversationID: 7
-        destinationDialogueID: 25
+        destinationDialogueID: 13
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -21381,62 +21381,6 @@ MonoBehaviour:
         y: 355.79926
         width: 160
         height: 30
-    - id: 25
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 7
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: Without that message, Mr. Wilson will never be taken from this Convention,
-          and you will never be brought here in his place.
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 7
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 7
-        originDialogueID: 25
-        destinationConversationID: 7
-        destinationDialogueID: 26
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 887.5218
-        y: 405.79926
-        width: 160
-        height: 30
     - id: 26
       fields:
       - title: Title
@@ -21448,11 +21392,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 7
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 7
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -21460,8 +21404,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'From what I can deduce, that will force matters back into their proper
-          order: Mr. Wilson will return to the Convention, and you to your own time.'
+        value: Huh, it actually listened to you and sent me here. Why did it do the
+          opposite of what I wanted?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -21479,7 +21423,7 @@ MonoBehaviour:
       - originConversationID: 7
         originDialogueID: 26
         destinationConversationID: 7
-        destinationDialogueID: 13
+        destinationDialogueID: 27
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -21489,13 +21433,69 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 887.5218
-        y: 455.79926
+        x: 355
+        y: 331
+        width: 160
+        height: 30
+    - id: 27
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: I'm afraid I do not know the answer to that. Perhaps you put it in
+          a bad mood?
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 7
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 7
+        originDialogueID: 27
+        destinationConversationID: 7
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 355
+        y: 381
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.39499655
+    canvasScrollPosition: {x: 55.84639, y: 33.507828}
+    canvasZoom: 0.44149706
   syncInfo:
     syncActors: 0
     syncItems: 0
