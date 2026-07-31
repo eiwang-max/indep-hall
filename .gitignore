@@ -77,3 +77,4 @@ Assets/Content/.DS_Store
 /Assets/Map Data/E-EastNJRd
 /Assets/Map Data/W-EastNJRd
 /.vscode
+*.unitypackage.meta
