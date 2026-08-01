@@ -21,6 +21,7 @@
   <Project Path="EPOURP.csproj" />
   <Project Path="VFavorites.csproj" />
   <Project Path="DOTweenPro.Scripts.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="SimpleFolderIcon.csproj" />
   <Project Path="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" />
   <Project Path="EPOHDRP.csproj" />
