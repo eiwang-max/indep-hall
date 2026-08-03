@@ -20590,8 +20590,8 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Ah! It appears that the Convention will resume shortly. If you still
-          want the President to be chosen directly by the people, you must argue
-          for it yourself.
+          want the President to be chosen directly by the people, you must present
+          your argument.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -20619,8 +20619,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 680.056
-        y: 155.4869
+        x: 616.63544
+        y: 146.42671
         width: 160
         height: 30
     - id: 13
@@ -20748,7 +20748,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 534.2589
-        y: 252.36873
+        y: 254.63374
         width: 160
         height: 30
     - id: 15
@@ -20774,8 +20774,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "But I don\u2019t know anything about this. How am I supposed to argue
-          with all of them?"
+        value: "But I don\u2019t know anything about this. How am I supposed to debate
+          all of them?"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
