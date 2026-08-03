@@ -201,6 +201,10 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Display Name
+      value: Benjamin Franklin
+      type: 0
+      typeString: 
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
@@ -3004,8 +3008,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 4700
-        y: 130
+        x: 4698.3677
+        y: 128.36737
         width: 160
         height: 30
     - id: 39
@@ -3040,6 +3044,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 342f7a4a-36e9-47c5-935d-a3e26ffc9415
+        type: 0
+        typeString: 
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -3073,8 +3081,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 4880
-        y: 130
+        x: 4870.204
+        y: 270.40823
         width: 160
         height: 30
     - id: 40
@@ -3274,7 +3282,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: a35db070-936f-4cd7-8748-4ff28a793392
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -3334,7 +3342,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 4b74eeeb-062a-4999-9c8d-7c7359245caa
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -3393,7 +3401,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 5953ae38-3724-44d6-b175-4d7f9b709683
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -3451,6 +3459,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: bddc421f-c3f2-4f90-b975-f0d362ab63b1
+        type: 0
+        typeString: 
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -3638,8 +3650,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 3223.8599, y: 0}
-    canvasZoom: 0.6755877
+    canvasScrollPosition: {x: 4846.469, y: 0}
+    canvasZoom: 0.4064993
   - id: 3
     fields:
     - title: Title
@@ -7850,7 +7862,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I represent Massachusetts, the birthplace of the Revolution.
+        value: I represent Massachusetts, the birthplace of the revolution.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -13593,8 +13605,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.1
+    canvasScrollPosition: {x: 48.315468, y: 116.76242}
+    canvasZoom: 0.5134998
   - id: 5
     fields:
     - title: Title
@@ -13722,8 +13734,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Good day, fellow delegate. We have little use for ceremony here, so
-          let us come directly to the matter.
+        value: Good day, fellow delegate. We have little use for formalities here,
+          so let us come directly to the matter.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -15496,8 +15508,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 44.714596, y: 62.600407}
-    canvasZoom: 0.946
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.1
   - id: 6
     fields:
     - title: Title
@@ -18334,7 +18346,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '[You''re a time-traveler! Suggest a strategy hasn''t been devised
+        value: '[You''re a time-traveler! Suggest a strategy that hasn''t been devised
           yet]'
         type: 0
         typeString: CustomFieldType_Text
@@ -19830,8 +19842,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 83.64677, y: 63.82339}
-    canvasZoom: 0.6115001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.22600076
   - id: 7
     fields:
     - title: Title
@@ -20419,8 +20431,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: In the Pennsylvania State House, in the summer of 1787. I suggest
-          you absorb that information slowly.
+        value: The Pennsylvania State House in the summer of 1787. I suggest you
+          absorb that information slowly.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -20609,7 +20621,7 @@ MonoBehaviour:
       - originConversationID: 7
         originDialogueID: 12
         destinationConversationID: 7
-        destinationDialogueID: 13
+        destinationDialogueID: 28
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -20619,8 +20631,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 616.63544
-        y: 146.42671
+        x: 532.8298
+        y: 78.476074
         width: 160
         height: 30
     - id: 13
@@ -21382,8 +21394,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I'm afraid I do not know the answer to that. Perhaps you put it in
-          a bad mood?
+        value: I'm afraid I do not know the answer to that. Perhaps specific words
+          or phrases are needed to win its favor?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -21413,6 +21425,62 @@ MonoBehaviour:
         serializedVersion: 2
         x: 355
         y: 381
+        width: 160
+        height: 30
+    - id: 28
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: I shall introduce you as James Wilson, an old friend of mine who arrived
+          late to the Convention due to illness.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 7
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 7
+        originDialogueID: 28
+        destinationConversationID: 7
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 639.28564
+        y: 135.27118
         width: 160
         height: 30
     entryGroups: []

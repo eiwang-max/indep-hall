@@ -201,6 +201,10 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Display Name
+      value: Benjamin Franklin
+      type: 0
+      typeString: 
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
@@ -13722,8 +13726,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Good day, fellow delegate. We have little use for ceremony here, so
-          let us come directly to the matter.
+        value: Good day, fellow delegate. We have little use for formalities here,
+          so let us come directly to the matter.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -15496,8 +15500,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 44.714596, y: 62.600407}
-    canvasZoom: 0.946
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.5274997
   - id: 6
     fields:
     - title: Title
@@ -18334,7 +18338,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '[You''re a time-traveler! Suggest a strategy hasn''t been devised
+        value: '[You''re a time-traveler! Suggest a strategy that hasn''t been devised
           yet]'
         type: 0
         typeString: CustomFieldType_Text
@@ -19830,8 +19834,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 83.64677, y: 63.82339}
-    canvasZoom: 0.6115001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.22600076
   - id: 7
     fields:
     - title: Title
@@ -20590,8 +20594,8 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Ah! It appears that the Convention will resume shortly. If you still
-          want the President to be chosen directly by the people, you must argue
-          for it yourself.
+          want the President to be chosen directly by the people, you must present
+          your argument.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -20609,7 +20613,7 @@ MonoBehaviour:
       - originConversationID: 7
         originDialogueID: 12
         destinationConversationID: 7
-        destinationDialogueID: 13
+        destinationDialogueID: 28
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -20619,8 +20623,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 680.056
-        y: 155.4869
+        x: 532.8298
+        y: 78.476074
         width: 160
         height: 30
     - id: 13
@@ -20748,7 +20752,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 534.2589
-        y: 252.36873
+        y: 254.63374
         width: 160
         height: 30
     - id: 15
@@ -20774,8 +20778,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "But I don\u2019t know anything about this. How am I supposed to argue
-          with all of them?"
+        value: "But I don\u2019t know anything about this. How am I supposed to debate
+          all of them?"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -21382,8 +21386,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I'm afraid I do not know the answer to that. Perhaps you put it in
-          a bad mood?
+        value: I'm afraid I do not know the answer to that. Perhaps specific words
+          or phrases are needed to win its favor?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -21413,6 +21417,62 @@ MonoBehaviour:
         serializedVersion: 2
         x: 355
         y: 381
+        width: 160
+        height: 30
+    - id: 28
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: I shall introduce you as James Wilson, an old friend of mine who arrived
+          late to the Convention due to illness.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 7
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 7
+        originDialogueID: 28
+        destinationConversationID: 7
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 639.28564
+        y: 135.27118
         width: 160
         height: 30
     entryGroups: []
