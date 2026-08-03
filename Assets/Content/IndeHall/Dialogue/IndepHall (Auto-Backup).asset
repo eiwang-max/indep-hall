@@ -3008,8 +3008,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 4700
-        y: 130
+        x: 4698.3677
+        y: 128.36737
         width: 160
         height: 30
     - id: 39
@@ -3044,6 +3044,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 342f7a4a-36e9-47c5-935d-a3e26ffc9415
+        type: 0
+        typeString: 
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -3077,8 +3081,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 4880
-        y: 130
+        x: 4870.204
+        y: 270.40823
         width: 160
         height: 30
     - id: 40
@@ -3278,7 +3282,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: a35db070-936f-4cd7-8748-4ff28a793392
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -3338,7 +3342,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 4b74eeeb-062a-4999-9c8d-7c7359245caa
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -3397,7 +3401,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 5953ae38-3724-44d6-b175-4d7f9b709683
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 2
@@ -3455,6 +3459,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: bddc421f-c3f2-4f90-b975-f0d362ab63b1
+        type: 0
+        typeString: 
       conversationID: 2
       isRoot: 0
       isGroup: 0
@@ -3642,8 +3650,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 3223.8599, y: 0}
-    canvasZoom: 0.6755877
+    canvasScrollPosition: {x: 4846.469, y: 0}
+    canvasZoom: 0.4064993
   - id: 3
     fields:
     - title: Title
@@ -7854,7 +7862,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I represent Massachusetts, the birthplace of the Revolution.
+        value: I represent Massachusetts, the birthplace of the revolution.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -13597,8 +13605,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.1
+    canvasScrollPosition: {x: 48.315468, y: 116.76242}
+    canvasZoom: 0.5134998
   - id: 5
     fields:
     - title: Title
@@ -15501,7 +15509,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.5274997
+    canvasZoom: 0.1
   - id: 6
     fields:
     - title: Title
@@ -20423,8 +20431,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: In the Pennsylvania State House, in the summer of 1787. I suggest
-          you absorb that information slowly.
+        value: The Pennsylvania State House in the summer of 1787. I suggest you
+          absorb that information slowly.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
