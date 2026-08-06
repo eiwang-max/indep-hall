@@ -364,9 +364,11 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       actorSubtitlePanelOverrides: []
     nodeColor: Red
     dialogueEntries:
@@ -1036,9 +1038,11 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       actorSubtitlePanelOverrides: []
     nodeColor: Red
     dialogueEntries:
@@ -1238,7 +1242,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 396
-        y: 60
+        y: 61.352264
         width: 160
         height: 30
     - id: 3
@@ -1647,8 +1651,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 9, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.73950046
   - id: 4
     fields:
     - title: Title
@@ -1693,9 +1697,11 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       actorSubtitlePanelOverrides: []
     nodeColor: Red
     dialogueEntries:
@@ -2023,9 +2029,11 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       actorSubtitlePanelOverrides: []
     nodeColor: Red
     dialogueEntries:
@@ -2612,7 +2620,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.6570002
   - id: 6
     fields:
     - title: Title
@@ -2658,9 +2666,11 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       actorSubtitlePanelOverrides: []
     nodeColor: 
     dialogueEntries:
@@ -2711,7 +2721,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       conversationID: 6
-      isRoot: 0
+      isRoot: 1
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0

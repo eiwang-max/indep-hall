@@ -3452,7 +3452,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: What the hell was that? Did the card just <b>disappear?</b>
+        value: What's happening? Did the card just <b>vanish into thin air?</b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -4792,7 +4792,7 @@ MonoBehaviour:
       - title: Dialogue Text
         value: "I wrote my own message on the card: \u201CRestore me to my proper
           place before the Convention decides how the Executive shall be chosen.\u201D
-          Then the card burned away and disappeared."
+          Then the card faded into nothingness."
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -4847,7 +4847,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I asked a bumbling young man what year it was and he looked at me
+        value: I asked a bewildered young man what year it was and he looked at me
           like I was more ridiculous than the shoes he was wearing.
         type: 0
         typeString: CustomFieldType_Text
@@ -7389,8 +7389,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.1
+    canvasScrollPosition: {x: 68.65248, y: 55.780136}
+    canvasZoom: 0.70500004
   - id: 4
     fields:
     - title: Title
@@ -19976,7 +19976,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: AudioWait(Franklin1, Dialogue Manager)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 7
@@ -20001,7 +20001,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 161
-        y: 80
+        y: 82.265015
         width: 160
         height: 30
     - id: 2
@@ -20545,8 +20545,8 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: With no better idea, I sketched it in the corner of my letter. To
-          my utter shock, the letter burst into flames and disappeared. Evidently,
-          it knew where to find you.
+          my utter shock, the letter dissolved in my hands. Evidently, it knew where
+          to find you.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -21282,8 +21282,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Mark it with the sun as before, and hope and pray that it obeys you
-          instead of being contrary.
+        value: Mark it with the sun as before, and pray that it obeys you instead
+          of being contrary.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -21368,7 +21368,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 355
-        y: 331
+        y: 333.265
         width: 160
         height: 30
     - id: 27
@@ -21394,8 +21394,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I'm afraid I do not know the answer to that. Perhaps specific words
-          or phrases are needed to win its favor?
+        value: I'm afraid I do not know the answer to that. Perhaps you failed to
+          win its favor?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
