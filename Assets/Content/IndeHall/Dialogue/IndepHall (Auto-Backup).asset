@@ -731,8 +731,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 68.546875, y: 77.11524}
-    canvasZoom: 0.69850004
+    canvasScrollPosition: {x: 21.396084, y: 12.282863}
+    canvasZoom: 0.53050053
   - id: 2
     fields:
     - title: Title
@@ -4235,7 +4235,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: When I could see again, I was in this very same room, but it was filled
-          with electric lights and people wearing the most bizarre clothes.
+          with people wearing the most bizarre clothes.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -19976,7 +19976,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: AudioWait(Franklin1, Dialogue Manager)
+        value: Delay(10)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 7
@@ -21484,8 +21484,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 55.84639, y: 33.507828}
-    canvasZoom: 0.44149706
+    canvasScrollPosition: {x: 45.406944, y: 17.562191}
+    canvasZoom: 0.42649752
   syncInfo:
     syncActors: 0
     syncItems: 0
