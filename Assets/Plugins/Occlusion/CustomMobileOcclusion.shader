@@ -1,44 +1,58 @@
 Shader "Custom/MobileOcclusion"
 {
-    SubShader {
-	    	Pass {
-	    		// Render the Occlusion shader before all
-				// opaque geometry to prime the depth buffer.
-				Tags { "Queue"="Geometry" }
+    SubShader
+    {
+        // Render immediately before normal opaque geometry so the occlusion
+        // mesh primes the depth buffer without forcing target materials to be
+        // transparent.
+        Tags
+        {
+            "RenderPipeline" = "UniversalPipeline"
+            "Queue" = "Geometry-1"
+            "RenderType" = "Opaque"
+        }
 
-				ZWrite On
-				ZTest LEqual
-				ColorMask 0
+        Pass
+        {
+            Name "OcclusionDepth"
+            Tags { "LightMode" = "SRPDefaultUnlit" }
 
-				CGPROGRAM
-				#pragma vertex vert
-				#pragma fragment frag
+            ZWrite On
+            ZTest LEqual
+            ColorMask 0
+            Cull Off
 
-				#include "UnityCG.cginc"
+            HLSLPROGRAM
+            #pragma target 2.0
+            #pragma vertex Vert
+            #pragma fragment Frag
 
-				struct appdata
-				{
-					float4 vertex : POSITION;
-				};
+            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
-				struct v2f
-				{
-					float4 position : SV_POSITION;
-				};
+            struct Attributes
+            {
+                float4 positionOS : POSITION;
+            };
 
-				v2f vert (appdata input)
-				{
-					v2f output;
+            struct Varyings
+            {
+                float4 positionCS : SV_POSITION;
+            };
 
-					output.position = UnityObjectToClipPos(input.vertex);
-					return output;
-				}
+            Varyings Vert(Attributes input)
+            {
+                Varyings output;
+                output.positionCS = TransformObjectToHClip(input.positionOS.xyz);
+                return output;
+            }
 
-				fixed4 frag (v2f input) : SV_Target
-				{
-					return fixed4(0.5, 0.3, 0.0, 1.0);
-				}
-				ENDCG
-	    	}
-	}
+            half4 Frag(Varyings input) : SV_Target
+            {
+                return 0;
+            }
+            ENDHLSL
+        }
+    }
+
+    Fallback Off
 }
